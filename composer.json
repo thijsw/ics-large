@@ -1,0 +1,18 @@
+{
+    "name": "thijsw/ics-large",
+    "description": "Generate .ics-files in PHP with a low memory footprint",
+    "require": {
+        "jsvrcek/ics": "^0.1.0"
+    },
+    "keywords": ["ical", "calendar", "export", ".ics", "RFC 5545", "multi-byte safe", "low memory"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thijs Wijnmaalen",
+            "email": "thijs@wijnmaalen.name"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "ICS_Large\\": "src/" }
+    }
+}
