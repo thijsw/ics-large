@@ -1,9 +1,9 @@
 # ics-large
 Generate Calendar .ics-files (iCal) in PHP with a low memory footprint
 
-This project uses the library written by [Justin Svrcek](https://github.com/jasvrcek/ICS).
+This project uses [the library written by Justin Svrcek](https://github.com/jasvrcek/ICS).
 
-This library is intended to be used if you'r planning to generate large .ics-files
+This library is intended to be used if you're planning to generate large .ics-files
 for which all the events cannot be stored in-memory. The library fetches the events
 in batches and prints the resulting entries directly, in order to keep the memory
 footprint to a minimum.
